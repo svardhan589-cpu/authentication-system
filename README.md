@@ -39,6 +39,13 @@ Authentication-Project/
 ├── package-lock.json
 ├── README.md
 ├── .gitignore
+└── screenshots/
+    ├── 01-user-registration.png
+    ├── 02-user-registration.png
+    ├── 03-user-login.png
+    ├── 04-user-login.png
+    ├── 05-duplicate-registration.png
+    └── 06-invalid-login.png
 ```
 
 ## Features
@@ -115,6 +122,17 @@ The following test cases were performed:
 - JWT token generation
 - Accessing protected routes
 - Invalid JWT token validation
+
+## Screenshots
+
+Sensitive request fields and token output are redacted in the published screenshots.
+
+1. [User registration](screenshots/01-user-registration.png)
+2. [Registration request](screenshots/02-user-registration.png)
+3. [User login](screenshots/03-user-login.png)
+4. [Login request and response](screenshots/04-user-login.png)
+5. [Duplicate registration](screenshots/05-duplicate-registration.png)
+6. [Invalid login](screenshots/06-invalid-login.png)
 
 ## Security
 
